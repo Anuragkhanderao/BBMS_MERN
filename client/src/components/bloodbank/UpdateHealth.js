@@ -94,7 +94,7 @@ const UpdateHealth = () => {
         />{" "}
         <input
           type="text"
-          placeholder="DONAR STATUS"
+          placeholder="DONOR STATUS"
           onChange={(e) => {
             setuserStatus(e.target.value);
           }}
